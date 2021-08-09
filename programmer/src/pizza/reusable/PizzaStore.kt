@@ -1,6 +1,6 @@
 package pizza.reusable
 
-abstract class PizzaStoreFactory {
+abstract class PizzaStore {
     fun order(type: PizzaType) {
         val pizza = create(type)
 

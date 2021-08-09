@@ -1,8 +1,8 @@
 package pizza.reusable
 
 fun main() {
-    val chicagoPizzaStore = ChicagoPizzaStoreFactory()
-    val newYorkPizzaStore = NewYorkPizzaStoreFactory()
+    val chicagoPizzaStore = ChicagoPizzaStore()
+    val newYorkPizzaStore = NewYorkPizzaStore()
 
     listOf(
         chicagoPizzaStore.order(PizzaType.CHEESE),

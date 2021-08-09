@@ -1,6 +1,6 @@
 package pizza.reusable
 
-class NewYorkPizzaStoreFactory : PizzaStoreFactory() {
+class NewYorkPizzaStore : PizzaStore() {
     override fun create(type: PizzaType): Pizza {
         return when (type) {
             PizzaType.CHEESE -> NewYorkCheesePizza()
